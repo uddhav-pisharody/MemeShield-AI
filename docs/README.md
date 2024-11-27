@@ -2,7 +2,6 @@ This project aims to detect hateful memes using a combination of Vision Transfor
 
 Link to the base ViT + BERT model - https://drive.google.com/file/d/1HbagHpfPH0LyUuEp_EgplSYSYo-GPjBT/view?usp=sharing
 Link to the Cross Modal ViT + BERT model - https://drive.google.com/file/d/1KB53Gv02n8U-vGdubI8CXKHOv2YMrI0k/view?usp=sharing
-=======
 
 ## Summary of Results
 
