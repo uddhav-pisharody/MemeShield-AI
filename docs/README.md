@@ -10,6 +10,9 @@ Link to the Cross Modal ViT + BERT model - https://drive.google.com/file/d/1KB53
 | **Overall Performance**         | Combined BERT + ViT             | Accuracy   | 75%       |
 |                                 |                                 | F1 Score   | 0.7569    |
 |                                 |                                 | ROC AUC    | -         |
+|                                 | Cross Modal BERT + ViT          | Accuracy   | 80.24%    |
+|                                 |                                 | F1 Score   | 0.8023    |
+|                                 |                                 | ROC Curve  | -         |
 | **Genetic Algorithm**           | Random Forest                   | Accuracy   | 88%       |
 |                                 |                                 | F1 Score   | 0.8366    |
 |                                 |                                 | ROC AUC    | 0.9278    |
