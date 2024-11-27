@@ -35,7 +35,6 @@ def train_classifiers(selected_features: pd.DataFrame, config):
         trained_classifiers[name] = clf
         print(f"{name} classifier trained.")
 
-    # Optionally, save the trained classifiers if required
     # Example: pickle.dump(trained_classifiers, open(config.classifiers_save_path, 'wb'))
 
     return trained_classifiers
@@ -51,9 +50,7 @@ def evaluate_classifiers(classifiers: dict, config):
     Returns:
     None
     """
-    # Assuming that the test data split is consistent
-    # Reload the features and labels for testing
-    selected_features = pd.read_csv(config.test_features_path)  # Replace with actual path if needed
+    selected_features = pd.read_csv(config.test_features_path)  
     X_test = selected_features.drop('label', axis=1)
     y_test = selected_features['label']
 
